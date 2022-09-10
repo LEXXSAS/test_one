@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    font-size: small;
+    height: 100%;
+/*
+    overflow-y: hidden;
+    padding-right: 15px;
+*/
+}
+
+body.active {
+      height: 100vh;
+      overflow-y: hidden;
+      padding-right: 15px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header_two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    width: 100px;
+    padding: 2px 0px;
+    border-radius: 10px;
+/*
+    padding: 2px 10px;
+    border-radius: 10px;
+*/
+}
+
+.btn:hover {
+    background-color: #f5a26e;
+}
+
+.upClick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 4px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 55px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    color: lightcoral;
+}
+
+p {
+    padding: 10px;
+
+}
+
+body.light {
+    background-color: #040e22;
+    color: #fff;
+}
+
+
+.upClick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 4px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 55px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    color: lightcoral;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.spanOne {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/*
+#upClick {
+    display: none;
+}
+*/
+
+
+
